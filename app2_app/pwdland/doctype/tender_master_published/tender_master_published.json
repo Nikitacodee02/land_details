@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-25 17:53:37.242187",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "portal_upload_status",
+  "upload_date",
+  "portal_tender_id",
+  "column_break_vhao",
+  "portal_link",
+  "tender_receipt_status",
+  "received_tender_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "portal_upload_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Portal Upload Status(\u092a\u094b\u0930\u094d\u091f\u0932 \u0905\u092a\u0932\u094b\u0921 \u0938\u094d\u0925\u093f\u0924\u0940)"
+  },
+  {
+   "fieldname": "upload_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Upload Date(\u0905\u092a\u0932\u094b\u0921 \u0924\u093e\u0930\u0940\u0916)"
+  },
+  {
+   "fieldname": "portal_tender_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Portal Tender ID(\u092a\u094b\u0930\u094d\u091f\u0932 Tender ID)"
+  },
+  {
+   "fieldname": "portal_link",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Portal Link(\u092a\u094b\u0930\u094d\u091f\u0932 \u0932\u093f\u0902\u0915)"
+  },
+  {
+   "fieldname": "tender_receipt_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Tender Receipt Status(\u0928\u093f\u0935\u093f\u0926\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924\u0940 \u0938\u094d\u0925\u093f\u0924\u0940)"
+  },
+  {
+   "fieldname": "received_tender_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Received Tender Number(\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0928\u093f\u0935\u093f\u0926\u093e \u0938\u0902\u0916\u094d\u092f\u093e)",
+   "options": "\nOpen\nClosed\nUnder Evaluation\n"
+  },
+  {
+   "fieldname": "column_break_vhao",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-28 12:07:52.674007",
+ "modified_by": "Administrator",
+ "module": "pwdland",
+ "name": "Tender Master Published",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

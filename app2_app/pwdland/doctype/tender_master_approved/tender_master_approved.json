@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-25 17:46:59.813110",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "administrative_approval_date",
+  "approval_status",
+  "approval_document_upload",
+  "financial_approval_date",
+  "approving_officer"
+ ],
+ "fields": [
+  {
+   "fieldname": "administrative_approval_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Administrative Approval Date(\u092a\u094d\u0930\u0936\u093e\u0938\u0915\u0940\u092f \u092e\u0902\u091c\u0942\u0930\u0940 \u0924\u093e\u0930\u0940\u0916)"
+  },
+  {
+   "fieldname": "financial_approval_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Financial Approval Date(\u0932\u0947\u0916\u093e \u092e\u0902\u091c\u0942\u0930\u0940 \u0924\u093e\u0930\u0940\u0916)"
+  },
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Approval Status(\u092e\u0902\u091c\u0942\u0930\u0940 \u0938\u094d\u0925\u093f\u0924\u0940)",
+   "options": "\nComplete\nPartial\nRejected"
+  },
+  {
+   "fieldname": "approval_document_upload",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Approval Document Upload(\u092e\u0902\u091c\u0942\u0930\u0940 \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u0905\u092a\u0932\u094b\u0921)"
+  },
+  {
+   "fieldname": "approving_officer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Approving Officer(\u092e\u0902\u091c\u0942\u0930\u0940 \u0926\u093f\u0932\u0947\u0932\u093e \u0905\u0927\u093f\u0915\u093e\u0930\u0940)"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-28 12:09:10.342102",
+ "modified_by": "Administrator",
+ "module": "pwdland",
+ "name": "Tender Master Approved",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

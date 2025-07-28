@@ -1,0 +1,185 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:village_canal_name",
+ "creation": "2025-07-25 16:23:31.004641",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "geo_tag_survey_date",
+  "village_canal_name",
+  "survey_number",
+  "affected_area_hectares",
+  "land_owner_name",
+  "remaining_area_hectares",
+  "adhaar_pan_number",
+  "acquisition_type",
+  "editing_form_id",
+  "document_upload",
+  "submission_date",
+  "district_collector_office_name",
+  "concerned_officer",
+  "approval_status",
+  "legal_disputed_records",
+  "column_break_ymeg",
+  "table",
+  "table_sec",
+  "geo_coordinates",
+  "table_third",
+  "table_fourth",
+  "table_fifth",
+  "table_six"
+ ],
+ "fields": [
+  {
+   "fieldname": "village_canal_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Village/ Canal Name(\u0917\u093e\u0935 / \u0915\u093e\u0932\u0935\u093e \u0928\u093e\u0935)",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "affected_area_hectares",
+   "fieldtype": "Float",
+   "label": "Affected Area (Hectares)(\u092c\u093e\u0927\u093f\u0924 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 (\u0939\u0947\u0915\u094d\u091f\u0930))"
+  },
+  {
+   "fieldname": "geo_tag_survey_date",
+   "fieldtype": "Date",
+   "label": "Geo-tag Survey Date(\u092d\u0942-\u091f\u0945\u0917 \u0938\u0930\u094d\u0935\u094d\u0939\u0947\u091a\u0940 \u0924\u093e\u0930\u0940\u0916)"
+  },
+  {
+   "fieldname": "survey_number",
+   "fieldtype": "Data",
+   "label": "Survey Number(\u0938\u0930\u094d\u0935\u094d\u0939\u0947 \u0928\u0902\u092c\u0930)"
+  },
+  {
+   "fieldname": "remaining_area_hectares",
+   "fieldtype": "Float",
+   "label": "Remaining Area (Hectares)(\u0936\u093f\u0932\u094d\u0932\u0915 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 (\u0939\u0947\u0915\u094d\u091f\u0930))"
+  },
+  {
+   "fieldname": "land_owner_name",
+   "fieldtype": "Data",
+   "label": "Land Owner Name(\u091c\u092e\u0940\u0928\u0927\u093e\u0930\u0915\u093e\u091a\u0947 \u0928\u093e\u0935"
+  },
+  {
+   "fieldname": "adhaar_pan_number",
+   "fieldtype": "Data",
+   "label": "Aadhaar / PAN Number(\u0906\u0927\u093e\u0930 / \u092a\u0945\u0928 \u0915\u094d\u0930\u092e\u093e\u0902\u0915)"
+  },
+  {
+   "fieldname": "acquisition_type",
+   "fieldtype": "Select",
+   "label": "Acquisition Type(\u0938\u0902\u092a\u093e\u0926\u0928\u093e\u091a\u093e \u092a\u094d\u0930\u0915\u093e\u0930)"
+  },
+  {
+   "fieldname": "editing_form_id",
+   "fieldtype": "Data",
+   "label": "Editing Form ID(\u0938\u0902\u092a\u093e\u0926\u0928 \u092b\u0949\u0930\u094d\u092e \u0906\u092f\u0921\u0940)"
+  },
+  {
+   "fieldname": "document_upload",
+   "fieldtype": "Attach",
+   "label": "Document Upload(\u0926\u0938\u094d\u0924\u0910\u0935\u091c \u0905\u092a\u0932\u094b\u0921)"
+  },
+  {
+   "fieldname": "submission_date",
+   "fieldtype": "Date",
+   "label": "Submission Date(\u0938\u093e\u0926\u0930 \u0915\u0930\u0923\u094d\u092f\u093e\u091a\u0940 \u0924\u093e\u0930\u0940\u0916)"
+  },
+  {
+   "fieldname": "district_collector_office_name",
+   "fieldtype": "Data",
+   "label": "District Collector Office Name(\u091c\u093f\u0932\u094d\u0939\u093e\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u093e\u091a\u0947 \u0928\u093e\u0935)"
+  },
+  {
+   "fieldname": "concerned_officer",
+   "fieldtype": "Data",
+   "label": "Concerned Officer(\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0905\u0927\u093f\u0915\u093e\u0930\u0940)"
+  },
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "label": "Approval Status(\u092e\u0902\u091c\u0942\u0930\u0940 \u0938\u094d\u0925\u093f\u0924\u0940)"
+  },
+  {
+   "fieldname": "legal_disputed_records",
+   "fieldtype": "Small Text",
+   "label": "Legal / Disputed Records(\u0915\u093e\u092f\u0926\u0947\u0936\u0940\u0930 / \u0935\u093e\u0926\u0917\u094d\u0930\u0938\u094d\u0924 \u0928\u094b\u0902\u0926\u0940)"
+  },
+  {
+   "fieldname": "geo_coordinates",
+   "fieldtype": "Geolocation",
+   "label": "Geo-coordinates(\u092d\u0942-\u0938\u0902\u0935Coordinates (\u0905\u0915\u094d\u0937\u093e\u0902\u0936-\u0930\u0947\u0916\u093e\u0902\u0936))"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "aa",
+   "options": "Primary Information"
+  },
+  {
+   "fieldname": "table_sec",
+   "fieldtype": "Table",
+   "label": "tender",
+   "options": "Vendor Master"
+  },
+  {
+   "fieldname": "table_third",
+   "fieldtype": "Table",
+   "label": "Tender Master Approved",
+   "options": "Tender Master Approved"
+  },
+  {
+   "fieldname": "table_fourth",
+   "fieldtype": "Table",
+   "label": "Tender Master Published",
+   "options": "Tender Master Published"
+  },
+  {
+   "fieldname": "table_fifth",
+   "fieldtype": "Table",
+   "label": "Tender Master Draft",
+   "options": "Tender Master Draft"
+  },
+  {
+   "fieldname": "table_six",
+   "fieldtype": "Table",
+   "label": "Completion and Approval",
+   "options": "Completion and Approval"
+  },
+  {
+   "fieldname": "column_break_ymeg",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-28 13:00:11.575784",
+ "modified_by": "Administrator",
+ "module": "pwdland",
+ "name": "Bhu Sampadan",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

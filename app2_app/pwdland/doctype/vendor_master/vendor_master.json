@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-25 17:59:34.466776",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "company_director_name",
+  "company_address",
+  "kyc_information",
+  "gst_number",
+  "contact_number",
+  "column_break_pcbm",
+  "work_location",
+  "nature_of_work",
+  "work_department",
+  "comment_observation",
+  "approved_tender_number",
+  "active_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name(\u0915\u0902\u092a\u0928\u0940\u091a\u0947 \u0928\u093e\u0935)"
+  },
+  {
+   "fieldname": "company_director_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Director / Representative Name(\u0915\u0902\u092a\u0928\u0940\u091a\u0947 \u0938\u0902\u091a\u093e\u0932\u0915 / \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u0927\u0940\u091a\u0947 \u0928\u093e\u0935)"
+  },
+  {
+   "fieldname": "company_address",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Company Address(\u0915\u0902\u092a\u0928\u0940\u091a\u093e \u092a\u0924\u094d\u0924\u093e)"
+  },
+  {
+   "fieldname": "kyc_information",
+   "fieldtype": "Attach",
+   "label": "KYC Information (Documents)(KYC \u092e\u093e\u0939\u093f\u0924\u0940 (\u0926\u0938\u094d\u0924\u0910\u0935\u091c))"
+  },
+  {
+   "fieldname": "gst_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GST Number(GSTN \u0915\u094d\u0930\u092e\u093e\u0902\u0915)"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Contact Number(\u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u094d\u0930\u092e\u093e\u0902\u0915)"
+  },
+  {
+   "fieldname": "work_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Work Location(\u0915\u093e\u092e\u093e\u091a\u0947 \u0920\u093f\u0915\u093e\u0923)"
+  },
+  {
+   "fieldname": "nature_of_work",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Nature of Work(\u0915\u093e\u092e\u093e\u091a\u0947 \u0938\u094d\u0935\u0930\u0942\u092a)",
+   "options": "\nPrepared\nUnder Review"
+  },
+  {
+   "fieldname": "work_department",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Work Department(\u0915\u093e\u092e\u093e\u091a\u093e \u0935\u093f\u092d\u093e\u0917)"
+  },
+  {
+   "fieldname": "approved_tender_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Approved Tender Number(\u092e\u0902\u091c\u0942\u0930 \u0928\u093f\u0935\u093f\u0926\u093e \u0915\u094d\u0930\u092e\u093e\u0902\u0915)"
+  },
+  {
+   "fieldname": "active_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Active Status"
+  },
+  {
+   "fieldname": "comment_observation",
+   "fieldtype": "Small Text",
+   "in_standard_filter": 1,
+   "label": "Comment / Observation(\u091f\u093f\u092a\u094d\u092a\u0923\u0940 / \u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923)"
+  },
+  {
+   "fieldname": "column_break_pcbm",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-28 12:10:21.712701",
+ "modified_by": "Administrator",
+ "module": "pwdland",
+ "name": "Vendor Master",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

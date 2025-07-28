@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-25 17:25:46.950287",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "approval_status",
+  "concerned_officer",
+  "department_office_name",
+  "column_break_hcup",
+  "comment_legal_bservation",
+  "land_survey_coordinates"
+ ],
+ "fields": [
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Approval Status(\u092e\u0902\u091c\u0942\u0930\u0940 \u0938\u094d\u0925\u093f\u0924\u0940)",
+   "options": "\nPending\nVeried\nRejected"
+  },
+  {
+   "fieldname": "concerned_officer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Concerned Officer(\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0905\u0927\u093f\u0915\u093e\u0930\u0940)"
+  },
+  {
+   "fieldname": "department_office_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Department / Office Name(\u0935\u093f\u092d\u093e\u0917 / \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f \u0928\u093e\u0935)"
+  },
+  {
+   "fieldname": "land_survey_coordinates",
+   "fieldtype": "Geolocation",
+   "in_list_view": 1,
+   "label": "Land Survey Coordinates(\u092d\u0942-\u0938\u0902\u0935Coordinates)"
+  },
+  {
+   "fieldname": "comment_legal_bservation",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Comment / Legal Observation(\u091f\u093f\u092a\u094d\u092a\u0923\u0940 / Legal Observation)"
+  },
+  {
+   "fieldname": "column_break_hcup",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-28 12:03:57.460373",
+ "modified_by": "Administrator",
+ "module": "pwdland",
+ "name": "Completion and Approval",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

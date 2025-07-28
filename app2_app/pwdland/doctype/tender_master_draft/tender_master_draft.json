@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-25 17:38:33.084894",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tender_title",
+  "tender_number",
+  "type_of_work",
+  "draft_creation_date",
+  "column_break_yvgi",
+  "draft_status",
+  "department_name",
+  "draft_document_upload"
+ ],
+ "fields": [
+  {
+   "fieldname": "tender_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tender Title(\u0928\u093f\u0935\u093f\u0926\u093e \u0936\u0940\u0930\u094d\u0937\u0915)"
+  },
+  {
+   "fieldname": "tender_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tender Number(\u0928\u093f\u0935\u093f\u0926\u093e \u0915\u094d\u0930\u092e\u093e\u0902\u0915)"
+  },
+  {
+   "fieldname": "type_of_work",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type of Work(\u0915\u093e\u092e\u093e\u091a\u093e \u092a\u094d\u0930\u0915\u093e\u0930)",
+   "options": "\nCivil\nMechanization\nInfrastructure"
+  },
+  {
+   "fieldname": "draft_creation_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Draft Creation Date(Draft \u0924\u092f\u093e\u0930 \u0915\u0930\u0923\u094d\u092f\u093e\u091a\u0940 \u0924\u093e\u0930\u0940\u0916)"
+  },
+  {
+   "fieldname": "draft_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Draft Status",
+   "options": "\nPrepared\nUnder Review"
+  },
+  {
+   "fieldname": "department_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Department Name(\u0935\u093f\u092d\u093e\u0917\u093e\u091a\u0947 \u0928\u093e\u0935)"
+  },
+  {
+   "fieldname": "draft_document_upload",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Draft Document Upload(Draft \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u0905\u092a\u0932\u094b\u0921)"
+  },
+  {
+   "fieldname": "column_break_yvgi",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-28 12:06:42.046491",
+ "modified_by": "Administrator",
+ "module": "pwdland",
+ "name": "Tender Master Draft",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

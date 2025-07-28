@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-25 17:18:36.204370",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "purchase_document_upload",
+  "extract_upload",
+  "mutation_record",
+  "column_break_dfte",
+  "lease_agreement_document",
+  "map_gis_plot"
+ ],
+ "fields": [
+  {
+   "fieldname": "purchase_document_upload",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Purchase Document Upload(\u0916\u0930\u0947\u0926\u0940 \u092a\u0924\u094d\u0930\u0915 \u0905\u092a\u0932\u094b\u0921)"
+  },
+  {
+   "fieldname": "extract_upload",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "7/12 Extract Upload(\u0938\u093e\u0924\u092c\u093e\u0930\u093e \u0909\u0924\u093e\u0930\u093e (7/12) \u0905\u092a\u0932\u094b\u0921)"
+  },
+  {
+   "fieldname": "mutation_record",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Mutation Record(\u092b\u0947\u0930\u092b\u093e\u0930 \u0928\u094b\u0902\u0926 / Mutation \u0928\u094b\u0902\u0926)"
+  },
+  {
+   "fieldname": "lease_agreement_document",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Lease / Agreement Document(\u092a\u091f\u094d\u091f\u0947 / \u0905\u200d\u0945\u0917\u094d\u0930\u0940\u092e\u0947\u0902\u091f \u0921\u0949\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f)"
+  },
+  {
+   "fieldname": "map_gis_plot",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Map / GIS Plot(\u0928\u0915\u093e\u0936\u093e / GIS Plot)"
+  },
+  {
+   "fieldname": "column_break_dfte",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-28 10:51:00.790225",
+ "modified_by": "Administrator",
+ "module": "pwdland",
+ "name": "Document Registration",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
